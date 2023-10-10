@@ -25,9 +25,9 @@ function checkWeather(latitude, longitude) {
 
             // Check if the weather description contains the word "rain"
             if (weatherDescription.toLowerCase().includes("rain")) {
-                document.getElementById("weather").textContent = "Yes, it's raining!";
+                document.getElementById("weather").textContent = "Si.";
             } else {
-                document.getElementById("weather").textContent = "No, it's not raining.";
+                document.getElementById("weather").textContent = "No.";
             }
         })
         .catch(error => {
